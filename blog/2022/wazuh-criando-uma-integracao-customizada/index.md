@@ -6,6 +6,8 @@
 
 No futuro, eu quero monitorar minha rede doméstica e o resto do meu ambiente com Wazuh integrado com Suricata. Também quero uma forma fácil para visualizar os alertas que o Wazuh irá gerar.
 
+![](/docs/assets/images/07.png)
+
 Eu poderia usar as integrações prontas do Wazuh, como a do [Slack](https://documentation.wazuh.com/current/proof-of-concept-guide/poc-integrate-slack.html), por exemplo. Decidi usar o Discord porque é um aplicativo que uso praticamente o dia todo e um exemplo perfeito para demonstrar como criar uma integração customizada do Wazuh com apps externos.
 
 É possível criar uma integração customizada do Wazuh para enviar seus alertas para qualquer lugar que tenha um webhook ou alguma forma de receber dados via POST requests. Como Microsoft Teams, por exemplo.
